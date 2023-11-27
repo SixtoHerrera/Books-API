@@ -17,6 +17,7 @@ books.get('/seed', (req, res) => {
       "quantity": 3,
       "imageURL": "https://imgur.com/cEJmGKV.jpg"
     },
+
     {
       "title": "The Annals of Arathrae",
       "description": "This anthology tells the intertwined narratives of six fairy tales.",
@@ -24,6 +25,7 @@ books.get('/seed', (req, res) => {
       "quantity": 8,
       "imageURL": "https://imgur.com/VGyUtrr.jpeg"
     },
+    
     {
       "title": "Wâˆ€RP",
       "description": "A time-space anomaly folds matter from different points in earth's history in on itself, sending six unlikely heroes on a race against time as worlds literally collide.",

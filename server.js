@@ -17,7 +17,7 @@ app.use(cors())
 app.get('/', (req,res) => {
     res.send('server is healthy');
 });
-
+// Call for controller
 const booksController = require('./controllers/book-controller');
 app.use('/books', booksController);
 
